@@ -1,0 +1,21 @@
+{
+  "name": "TrackSession",
+  "version": "1.0.0",
+  "description": "tracksession",
+  "main": "index.js",
+  "author": "dafeng",
+  "license": "MIT",
+  "scripts": {
+    "bundle": "rollup --config",
+    "typings": "tsc -d --declarationDir typings"
+  },
+  "devDependencies": {
+    "rollup": "^1.16.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.0.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
+  }
+}
